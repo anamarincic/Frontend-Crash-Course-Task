@@ -12,9 +12,3 @@ function handle_click(){
 }
 
 
-const to=document.getElementById("one");
-
-to.addEventListener("click", function() {
-       
-       document.documentElement.scrollTo(0,250);
-});
