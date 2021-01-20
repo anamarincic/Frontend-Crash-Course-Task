@@ -1,0 +1,108 @@
+body {
+  position: absolute;
+}
+
+img {
+  width: 60px;
+  float: left;
+}
+
+#basket {
+  display: inline-block;
+  position: relative;
+  margin-left: 770px;
+  border: none;
+  color: black;
+  background-color: #e7e7e7;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer  
+}
+
+#basket:hover {border: 2px solid rgb(0, 0, 0)}
+
+#list-items {
+  position: absolute;
+  top: 60px;
+  left: 550px;
+  width: 300px;
+  height: 450px;
+  border : 1.5px solid #BEBEBE; 
+  -webkit-box-shadow: 4px 9px 15px 5px #BEBEBE; 
+  box-shadow: 4px 9px 15px 5px #BEBEBE; 
+}
+
+#one, #two, #three {
+  border-bottom: 1px solid #ddd;
+  height: 85px;
+}
+
+
+#btnUp, #btnDown {
+  background-color: #e7e7e7; 
+  color: rgba(143, 140, 140, 0.849);
+  width: 95%;
+  padding: 10px 24px;
+  margin-left: 10px;
+}
+
+#btnUp {
+  margin-bottom: 5px;
+}
+
+.items{
+  overflow: hidden;
+  top: 60px;
+  left: 550px;
+  height: 300px;
+  width: 300px;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer
+}
+
+.edit {
+  background-color: white;
+  color: black;
+  border: 2px solid #000000; 
+  font-size: 11px;
+  margin-top: 2px;
+  margin-left: 20px;
+  padding: 14px 40px;
+}
+
+.checkout {
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    font-size: 12px;
+    padding: 15px 35px;
+    margin-top: 2px;
+}
+
+.attributes {
+  color: gray;
+  font-size: x-small;
+  margin: 0px 0px;
+  font-size: 13px;
+}
+
+.nameOfItem {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.price {
+  font-size: 13px;
+  margin: 0px 0px;
+}
+
+#numOfItems{
+  margin: 0px 0px;
+}
+
+
